@@ -1,0 +1,222 @@
+{
+	"id": "e2f94531-0961-95a6-4158-586841a2ea8c",
+	"name": "Task",
+	"description": "",
+	"order": [
+		"e906f50c-5327-6272-b738-d355ec5f3a5d",
+		"f16e1258-086b-4dc8-b2eb-badbe3c938eb",
+		"eea42284-fb59-cf12-f80e-ed28d67f0152",
+		"46bf752d-048d-4797-d962-69eb22af1c6d",
+		"0759fdd4-d1f1-fc7b-5ead-f8d407a4aab2",
+		"f6cd2279-eec5-6ba9-b788-34b758c528d2"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1629568688897,
+	"owner": "11471427",
+	"public": false,
+	"requests": [
+		{
+			"id": "0759fdd4-d1f1-fc7b-5ead-f8d407a4aab2",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjI5NTcxMjQwLCJqdGkiOiJlMGQzMzVhNGYwNjU0NTIzOTIzZThmYTIzMWZkZmU0MSIsInVzZXJfaWQiOjF9.GP7mEefCHly-DMpgMWAbv09uAhVIw5pZ6A0gGIOAG5E\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjI5NTcxMjQwLCJqdGkiOiJlMGQzMzVhNGYwNjU0NTIzOTIzZThmYTIzMWZkZmU0MSIsInVzZXJfaWQiOjF9.GP7mEefCHly-DMpgMWAbv09uAhVIw5pZ6A0gGIOAG5E",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/create-task/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "e2f94531-0961-95a6-4158-586841a2ea8c",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Create Task",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1629571090096,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{ \"name\": \"Task name\" }"
+		},
+		{
+			"id": "46bf752d-048d-4797-d962-69eb22af1c6d",
+			"headers": "",
+			"headerData": [],
+			"url": "http://127.0.0.1:8000/api/token/refresh/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "e2f94531-0961-95a6-4158-586841a2ea8c",
+			"data": [
+				{
+					"key": "refresh",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTYyOTY1Njg3MSwianRpIjoiYzRiNDFiYzI0OGM4NDhjMGE4N2Q2NWRiNjQ3M2ZmNjYiLCJ1c2VyX2lkIjoxfQ.cIklNZzKbIfZ-WOKQedF_90hAvo-R_o_yhIkjtHgvsk",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "Refresh Token",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1629570992160,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "e906f50c-5327-6272-b738-d355ec5f3a5d",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/register/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "e2f94531-0961-95a6-4158-586841a2ea8c",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Register",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1629568792589,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n    \"email\": \"asdfg@asd.com\",\n    \"password\": \"123123\"\n}"
+		},
+		{
+			"id": "eea42284-fb59-cf12-f80e-ed28d67f0152",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjI5NTcwNzcxLCJqdGkiOiJiMDk5NTMzZjVlZGU0MDBlYmUwY2Y5YTVhNzgzMjJjNCIsInVzZXJfaWQiOjF9.wx-ppvB--zZMEDaBaY6oHd353zTP0WTxf8S9gRHpDP8\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjI5NTcwNzcxLCJqdGkiOiJiMDk5NTMzZjVlZGU0MDBlYmUwY2Y5YTVhNzgzMjJjNCIsInVzZXJfaWQiOjF9.wx-ppvB--zZMEDaBaY6oHd353zTP0WTxf8S9gRHpDP8",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/user/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "e2f94531-0961-95a6-4158-586841a2ea8c",
+			"data": null,
+			"dataMode": "params",
+			"name": "Get User",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1629570763100,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "f16e1258-086b-4dc8-b2eb-badbe3c938eb",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/login/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "e2f94531-0961-95a6-4158-586841a2ea8c",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Login",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1629569066287,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{ \n\"username\": \"admin@admin.com\",\n\"password\": \"kwansoTest\" \n}"
+		},
+		{
+			"id": "f6cd2279-eec5-6ba9-b788-34b758c528d2",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjI5NTcxNDUyLCJqdGkiOiJlZjVlZTk1MmI4MDM0ZTgyOGRmOTM1NTFkNjc4NDJhYSIsInVzZXJfaWQiOjF9.B6lZnOYUgSACFUIRBZVaUAysJLfhHrmRsKIhNHr2zIs\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjI5NTcxNDUyLCJqdGkiOiJlZjVlZTk1MmI4MDM0ZTgyOGRmOTM1NTFkNjc4NDJhYSIsInVzZXJfaWQiOjF9.B6lZnOYUgSACFUIRBZVaUAysJLfhHrmRsKIhNHr2zIs",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/list-tasks/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "e2f94531-0961-95a6-4158-586841a2ea8c",
+			"data": null,
+			"dataMode": "params",
+			"name": "GetTasks List",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1629571184462,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
